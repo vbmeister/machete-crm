@@ -87,6 +87,7 @@ The language links tell Machete which language to display for the pages. Current
 ===Required fields===
 Some fields are required in order to save a record. If a user attempts to save the record without filling out a required field, the field is highlighted in red and an error message is displayed. 
 [http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-2.png]
+
 Required fields exist to ensure that all necessary information for processing an order or managing a worker is collected. 
 
 ==Pages of Machete==
