@@ -117,11 +117,11 @@ The user creation process prompts the user to give their real first and last nam
 When a user is not logged in, [Logon] is displayed in the upper right hand corner of every page. If the user does not have an account, a Register link is available from the logon page.
 [http://machete-crm.googlecode.com/svn/wiki/images/Introduction_UserAccounts-1.png]
 
-Bilingual Support
+==Bilingual Support==
 Machete has the capability to support muliple display languages. As of Summer 2011, it supports English and Spanish. More languages can be added.
 The links to switch between English and Spanish are in the upper right hand corner of every page. A user can switch between English and Spanish anywhere in the application.
 
-Work Flow
+==Work Flow==
 The diagram below illustrates the basic work flow of creating orders in Machete. Creating a work order involves an employer record, a work order record, and at least one work assignment record. At the end of the process, the users signifies that the order is complete by activating the order. 
 Active orders are visible in the Dispatch page and are able to be assigned workers.
 [http://machete-crm.googlecode.com/svn/wiki/images/Introduction_WorkFlow-1.png]
