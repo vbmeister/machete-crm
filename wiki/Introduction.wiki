@@ -39,10 +39,15 @@ Within Machete there are some terms that have a specific meaning.
  * *Work Orders:* A work order record is a request by an employer for one or more workers.
    * *Pending Orders:* A pending order is a new order, or an incomplete order, or an order not yet marked active. 
    * *Active Orders:* An active order is an order that has at least one work assignment and has been marked active.
-   * *Complete Orders:* A complete order has had all of it’s assignments filled with workers and marked as complete. 
+   * *Complete Orders:* A complete order has had all of it's assignments filled with workers and marked as complete. 
    * *Cancelled Orders:* Orders cancelled by the employer
    * *Expired Orders:* Orders that could not be fulfilled (either because no worker was available, or no worker with the specific skill required could be found in time for the job).
  * *Work Assignment:* A work assignment is part of a work order. One  assignment is created for each worker needed. 
  * *Dispatch:* Dispatch is the process of assigning a worker who has signed-in for the day to an active work assignment.
  * *Worker Sign-in:* A sign-in occurs when a worker signs in to Machete. A sign-in is required for the worker to appear in the Machete Dispatch page.
  * *Skills:* Every work assignment requires the selection of the skills necessary to complete the work. Some skills are general skills, such as digging, that any worker can fulfill. Other skills are specialty skills, which limit which workers are eligible to be assigned to the work assignment.
+
+==The Machete Interface==
+===Navigation===
+The diagram below identifies common components of the machete interface.
+[http://machete-crm.googlecode.com/svn/wiki/Introduction_Navigation-1.png]
