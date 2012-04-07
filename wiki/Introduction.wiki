@@ -60,12 +60,12 @@ The links cause the browser to load a new HTML page. The links divide the major 
 Machete uses tabs to divide different areas of functinality. When records are opened, a new tab is opened to display the information. Moving away from a tab will cause a new tab to be re-loaded. If you return to the previous tab, it will also be re-loaded. The tabs are re-loaded intentionally to make sure information is current.
 
 ===List Tab===
-The List Tab is the default tab for most Machete pages. The list tab shows a list of a given pageï¿½s records and provides search and sorting features against the records. 
-Once a record is found that needs to be edited or printed, double-click on the record row in the list tab. A record tab will open to the right, with identifying information in the tabï¿½s text box.
+The List Tab is the default tab for most Machete pages. The list tab shows a list of a given page's records and provides search and sorting features against the records. 
+Once a record is found that needs to be edited or printed, double-click on the record row in the list tab. A record tab will open to the right, with identifying information in the tab's text box.
 The lists are implemented with an open source add-on called datatables and can be found at [http://www.datatables.net/ DataTables.net].
 
 ===Search Box===
-The search box automatically searches the list of records for text as itï¿½s being entered. There is a 400 ms second delay on searching, to reduce load on the Machete database. Most fields displayed in a list will be searched, with the exception of ï¿½Updated byï¿½ fields. These fields are seldom searched and increase search load for all searches, so they are excluded.
+The search box automatically searches the list of records for text as it's being entered. There is a 400 ms second delay on searching, to reduce load on the Machete database. Most fields displayed in a list will be searched, with the exception of 'Updated by' fields. These fields are seldom searched and increase search load for all searches, so they are excluded.
 
 ===Create Tab===
 The Create Tab is available for almost all pages. The create tab provides a blank record for entering new information. The save button must be used to save the new record to the database. 
@@ -86,4 +86,29 @@ The language links tell Machete which language to display for the pages. Current
 
 ===Required fields===
 Some fields are required in order to save a record. If a user attempts to save the record without filling out a required field, the field is highlighted in red and an error message is displayed. 
-[http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-1.png]
+[http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-2.png]
+Required fields exist to ensure that all necessary information for processing an order or managing a worker is collected. 
+
+==Pages of Machete==
+The pages of Machete correspond to the major functions that it performs. However, the organization may not be intuitive based on the names alone.
+
+===Employers===
+The employers page provides access for searching, creating, editing, and deleting employer records. It is also the page that provides access for creating work orders and work assignments. The work order and work assignment creation is embedded in the employer page because such actions are always employer-specific. 
+
+===Work Orders===
+The work order page provides summary and management functionality for work orders. It does not provide creation functionality—see employers. 
+
+===Dispatch===
+The dispatch page brings together the list of workers signed in to Machete for the day and the list of work assignments that need to be filled. The page provides several methods of filtering the lists to find workers with skills necessary for an assignment. It also provides an interface for recording lottery selections using a bar code scanner.
+
+===Persons===
+The persons page provides access for searching, creating, editing, and deleting person records. It also provides access for creating worker records. This functionality is located in the person page (and not the workers page) because a person record must be created first. A worker record is created afterward.
+
+===Workers===
+The workers page provides access for searching, editing, and deleting worker records. The worker page allows users to search by worker membership number. 
+
+===Worker Sign-in===
+The worker sign-in page records daily registration of workers. The page can be used with a bar-code scanner, or the membership number of the worker can be entered using the keyboard. 
+
+==User Accounts==
+
