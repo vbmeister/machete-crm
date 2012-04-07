@@ -25,6 +25,6 @@
        * [Introduction#Workers Workers]
        * [Introduction#Worker_Sign-in Worker Sign-in]
      * [Introduction#User_Accounts User Accounts]
-       * [Introduction#Bilingual_Support Bilingual Support]
-       * [Introduction#Work_Flow Work Flow]
+     * [Introduction#Bilingual_Support Bilingual Support]
+     * [Introduction#Work_Flow Work Flow]
 ''       * [Introduction#]
