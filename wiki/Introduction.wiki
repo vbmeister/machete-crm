@@ -97,7 +97,7 @@ The pages of Machete correspond to the major functions that it performs. However
 The employers page provides access for searching, creating, editing, and deleting employer records. It is also the page that provides access for creating work orders and work assignments. The work order and work assignment creation is embedded in the employer page because such actions are always employer-specific. 
 
 ===Work Orders===
-The work order page provides summary and management functionality for work orders. It does not provide creation functionality—see employers. 
+The work order page provides summary and management functionality for work orders. It does not provide creation functionality--see employers. 
 
 ===Dispatch===
 The dispatch page brings together the list of workers signed in to Machete for the day and the list of work assignments that need to be filled. The page provides several methods of filtering the lists to find workers with skills necessary for an assignment. It also provides an interface for recording lottery selections using a bar code scanner.
@@ -112,4 +112,18 @@ The workers page provides access for searching, editing, and deleting worker rec
 The worker sign-in page records daily registration of workers. The page can be used with a bar-code scanner, or the membership number of the worker can be entered using the keyboard. 
 
 ==User Accounts==
+To access Machete, a user must create a user account AND be granted privileges to access the system by an Administrator.  
+The user creation process prompts the user to give their real first and last name. Using a real first and last name is important because this name is also part of the logging system. The name of the user is logged whenever he or she makes a change to a record.
+When a user is not logged in, [Logon] is displayed in the upper right hand corner of every page. If the user does not have an account, a Register link is available from the logon page.
+[http://machete-crm.googlecode.com/svn/wiki/images/Introduction_UserAccounts-1.png]
 
+Bilingual Support
+Machete has the capability to support muliple display languages. As of Summer 2011, it supports English and Spanish. More languages can be added.
+The links to switch between English and Spanish are in the upper right hand corner of every page. A user can switch between English and Spanish anywhere in the application.
+
+Work Flow
+The diagram below illustrates the basic work flow of creating orders in Machete. Creating a work order involves an employer record, a work order record, and at least one work assignment record. At the end of the process, the users signifies that the order is complete by activating the order. 
+Active orders are visible in the Dispatch page and are able to be assigned workers.
+[http://machete-crm.googlecode.com/svn/wiki/images/Introduction_WorkFlow-1.png]
+
+The following pages will discuss the pages of Machete that provide this functionality. 
