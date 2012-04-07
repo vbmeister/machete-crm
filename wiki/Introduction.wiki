@@ -1,0 +1,48 @@
+= Introduction = 
+
+Machete is a web application that manages a day labor referral service. Machete tracks work orders for employers looking for short term, casual labor. It also provides a means for matching laborers with specific skills to requests made by employers for skilled labor.
+
+== The Basics ==
+=== What Machete does ===
+
+Machete performs the following tasks:
+ # Stores basic contact information for all persons associated with the Machete system 
+ # Stores biographical and membership information on its members 
+ # Records member sign-in using a identification number through either a bar code scanner or the keyboard 
+ # Captures employer, work order, and work assignment details into a relational database 
+ # Provides a fast, flexible method of dispatching workers to work orders based on English level, skill level, and employer requests 
+ # Captures events such as worker recommendations, complaints, sanctions, and expulsion
+
+=== How Machete works ===
+
+Machete is a web application, meaning that it web server connected to a datbase. The web server interacts with a web  client (FireFox, Chrome, Internet Explorer, Safari) to provide the application functionality. The web client/server framework provides a great deal of flexibility, but also comes with its own quirks and restraints.
+
+=== Logging into Machete ===
+
+Because Machete is a web application, it can be setup on any Microsoft Web Server (IIS). To access Machete, use a compliant web browser and use it to go to the Machete web server:
+The default is: http://machete/
+You will need a login and password to sign in to Machete. You can register for an account by clicking in the Logon link in the upper right hand corner of the Machete page. A manager or dispatcher will need to give your account permission to use Machete.
+
+=== What Machete does not do ===
+
+Reports. Machete captures data, display data, and prints select data through the web client’s print functionality.  
+Reports on the data that Machete collects are available through any SQL-compliant tool.
+A set of SQL Server Reporting Services (SSRS) reports are provided, but SSRS is a separate component, not available with the free verson of SQL Server.
+Note: Microsoft Reporting & Analysis Service will be used to provide report access. Reports can be found at http://machete/reports/
+
+=== Terminology ===
+
+Within Machete there are some terms that have a specific meaning.
+ * *Persons:* A person record contains basic information on persons in Machete.
+ * *Workers:* A worker record is a companion to the person record and is linked to the person record. 
+ * *Employers:* An employer record  is a person or business that calls to hire a worker. 
+ * *Work Orders:* A work order record is a request by an employer for one or more workers.
+   * *Pending Orders:* A pending order is a new order, or an incomplete order, or an order not yet marked active. 
+   * *Active Orders:* An active order is an order that has at least one work assignment and has been marked active.
+   * *Complete Orders:* A complete order has had all of it’s assignments filled with workers and marked as complete. 
+   * *Cancelled Orders:* Orders cancelled by the employer
+   * *Expired Orders:* Orders that could not be fulfilled (either because no worker was available, or no worker with the specific skill required could be found in time for the job).
+ * *Work Assignment:* A work assignment is part of a work order. One  assignment is created for each worker needed. 
+ * *Dispatch:* Dispatch is the process of assigning a worker who has signed-in for the day to an active work assignment.
+ * *Worker Sign-in:* A sign-in occurs when a worker signs in to Machete. A sign-in is required for the worker to appear in the Machete Dispatch page.
+ * *Skills:* Every work assignment requires the selection of the skills necessary to complete the work. Some skills are general skills, such as digging, that any worker can fulfill. Other skills are specialty skills, which limit which workers are eligible to be assigned to the work assignment.
