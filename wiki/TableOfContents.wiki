@@ -4,7 +4,7 @@
    * [Introduction#Logging_into_Machete Logging in]
    * [Introduction#What_Machete_does_not_do What Machete does not do]
    * [Introduction#Terminology Terminology]
- * [Machete User Manual]
+ * [Interface Machete User Manual]
    * [Interface#machete_Interface Machete Interface]
      * [Interface#Navigation Navigation]
        * [Interface#Menu_links Menu Links]
