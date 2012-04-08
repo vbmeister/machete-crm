@@ -1,7 +1,39 @@
 =Employers=
+The employers page is the primary page for managing employers. In addition to creating, editing, and deleting employer records, the employer page is the only page that allows for the creation of work orders.
+
+[http://machete-crm.googlecode.com/svn/wiki/images/PageEmployer-1.png]
+
+The reason that work order creation is on the employer page is that all work orders must be associated with an employer record at the time of creation. There are no employer-less work orders in Machete. Therefore, an employer record must first be selected, and the employer page provides the means do select an employer.
+
 ==Searching for an Employer==
+The employer page shows the List employers tab when it is first loaded. It is a good idea to search for an existing employer before creating a new employer. Duplicating an employer record reduces the ability to report how many employers are new vs. returning employers, distorting customer satisfaction analysis.
+The search box on the List tab searches all of the employers in Machete, as you type. You do not need to type the entire name or phone number; Machete will search based on the text you provide.
+
+[http://machete-crm.googlecode.com/svn/wiki/images/PageEmployer-Searching-1.png]
+
+Machete searches:
+ * using the entire string that you type in; it does not detect words and search for them individually
+ * the name field
+ * the address field
+ * the city field
+ * the phone number field
+
 ==Editing an existing Employer==
+To edit an existing employer record, first use the List tab on the employer page to search and find the record to edit. Double-click on the employer row in the List tab to open the record tab and edit it.
+
+[http://machete-crm.googlecode.com/svn/wiki/images/PageEmployer-Editing-1.png]	
+
+Double-clicking on the employer record row will open a record tab. This provides access to update information on the employer and to create or edit work orders for that employer.
+
+[http://machete-crm.googlecode.com/svn/wiki/images/PageEmployer-Editing-2.png]
+
+Be sure to click the Save button in order to save any changes made to the record.
+
 ==Creating a new Employer==
+To create a new employer record, use the Create New Employer tab on the employer page. The tab will provide a blank employer record. Fill out the information and click the Save button.
+ * Note: Some fields are required, and cannot be left blank. If you attempt to save a record without providing information for a required field, the field will be highlighted in red. You record is not saved until you put some value in the required field and click the Save button again. If the employer will not provide the information, put “not available” or “N/A” in the field.
+Once you save the employer record, a record tab for the new record will open, showing the information you just entered. The record tab will also give access to the work order information for the employer.
+
 ==Deleting an Employer==
 ==Creating a new Work Order===
 ==Work Order buttons==
