@@ -1,30 +1,51 @@
  * [Introduction Introduction]
-   * [Introduction#The_basics The basics]
-     * [Introduction#What_Machete_does What Machete does]
-     * [Introduction#How_Machete_works How Machete works]
-     * [Introduction#Logging_into_Machete Logging in]
-     * [Introduction#What_Machete_does_not_do What Machete does not do]
-     * [Introduction#Terminology Terminology]
-   * [Introduction#machete_Interface Machete Interface]
-     * [Introduction#Navigation Navigation]
-       * [Introduction#Menu_links Menu Links]
-       * [Introduction#Tabs Tabs]
-       * [Introduction#List_Tabs List Tabs]
-       * [Introduction#Search_Box Search Box]
-       * [Introduction#Create_Tab Create Tab]
-       * [Introduction#Record_Tab Record Tab]
-       * [Introduction#Table_entries_per_page Table entries per page]
-       * [Introduction#Pagination Pagination]
-       * [Introduction#Language Language]
-       * [Introduction#Required_Fields Required Fields]
-     * [Introduction#Pages_of_Machete Pages of Machete]
-       * [Introduction#Employers Employers]
-       * [Introduction#Work_Orders Work Orders]
-       * [Introduction#Dispatch Dispatch]
-       * [Introduction#Persons Persons]
-       * [Introduction#Workers Workers]
-       * [Introduction#Worker_Sign-in Worker Sign-in]
-     * [Introduction#User_Accounts User Accounts]
-     * [Introduction#Bilingual_Support Bilingual Support]
-     * [Introduction#Work_Flow Work Flow]
+   * [Introduction#What_Machete_does What Machete does]
+   * [Introduction#How_Machete_works How Machete works]
+   * [Introduction#Logging_into_Machete Logging in]
+   * [Introduction#What_Machete_does_not_do What Machete does not do]
+   * [Introduction#Terminology Terminology]
+ * [Machete User Manual]
+   * [Interface#machete_Interface Machete Interface]
+     * [Interface#Navigation Navigation]
+       * [Interface#Menu_links Menu Links]
+       * [Interface#Tabs Tabs]
+       * [Interface#List_Tabs List Tabs]
+       * [Interface#Search_Box Search Box]
+       * [Interface#Create_Tab Create Tab]
+       * [Interface#Record_Tab Record Tab]
+       * [Interface#Table_entries_per_page Table entries per page]
+       * [Interface#Pagination Pagination]
+       * [Interface#Language Language]
+       * [Interface#Required_Fields Required Fields]
+     * [Interface#Pages_of_Machete Pages of Machete]
+       * [Interface#Employers Employers]
+       * [Interface#Work_Orders Work Orders]
+       * [Interface#Dispatch Dispatch]
+       * [Interface#Persons Persons]
+       * [Interface#Workers Workers]
+       * [Interface#Worker_Sign-in Worker Sign-in]
+     * [Interface#User_Accounts User Accounts]
+     * [Interface#Bilingual_Support Bilingual Support]
+     * [Interface#Work_Flow Work Flow]
+
+Home
+Machete News
+Issue Tracker
+Documentation
+Reports
+About
+
+Employers
+Searching for an Employer
+Editing an existing Employer
+Creating a new Employer
+Deleting an Employer
+Creating a new Work Order
+Work Order buttons
+Work Order fields
+Searching for and editing an existing Work Order
+Deleting Work Orders
+Creating a new Work Assignment
+Work Assignment Buttons
+Assigninga Worker directly to an Work Assignment (Orphaned Assignment)
 ''       * [Introduction#]
