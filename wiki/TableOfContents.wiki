@@ -1,4 +1,4 @@
-   * [ * [Introduction Introduction]
+ * [Introduction Introduction]
    * [Introduction#What_Machete_does What Machete does]
    * [Introduction#How_Machete_works How Machete works]
    * [Introduction#Logging_into_Machete Logging in]
