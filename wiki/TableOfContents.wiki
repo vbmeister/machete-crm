@@ -6,7 +6,6 @@
    * [Introduction#Terminology Terminology]
  * [Interface Machete User Manual]
    * [Interface#machete_Interface Machete Interface]
-
      * [Interface#Menu_links Menu Links]
      * [Interface#Tabs Tabs]
      * [Interface#List_Tabs List Tabs]
