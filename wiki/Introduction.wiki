@@ -46,3 +46,11 @@ Within Machete there are some terms that have a specific meaning.
  * *Worker Sign-in:* A sign-in occurs when a worker signs in to Machete. A sign-in is required for the worker to appear in the Machete Dispatch page.
  * *Skills:* Every work assignment requires the selection of the skills necessary to complete the work. Some skills are general skills, such as digging, that any worker can fulfill. Other skills are specialty skills, which limit which workers are eligible to be assigned to the work assignment.
 
+==Bilingual Support==
+Machete has the capability to support muliple display languages. As of Summer 2011, it supports English and Spanish. More languages can be added.
+The links to switch between English and Spanish are in the upper right hand corner of every page. A user can switch between English and Spanish anywhere in the application.
+
+==Work Flow==
+The diagram below illustrates the basic work flow of creating orders in Machete. Creating a work order involves an employer record, a work order record, and at least one work assignment record. At the end of the process, the users signifies that the order is complete by activating the order. 
+Active orders are visible in the Dispatch page and are able to be assigned workers.
+[http://machete-crm.googlecode.com/svn/wiki/images/Introduction_WorkFlow-1.png]

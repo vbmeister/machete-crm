@@ -1,9 +1,11 @@
- * [Introduction Introduction]
+   * [ * [Introduction Introduction]
    * [Introduction#What_Machete_does What Machete does]
    * [Introduction#How_Machete_works How Machete works]
    * [Introduction#Logging_into_Machete Logging in]
    * [Introduction#What_Machete_does_not_do What Machete does not do]
    * [Introduction#Terminology Terminology]
+   * [PagesOfMachete#Bilingual_Support Bilingual Support]
+   * [PagesOfMachete#Work_Flow Work Flow]
  * [Interface Machete User Manual]
    * [Interface#machete_Interface Machete Interface]
      * [Interface#Menu_links Menu Links]
@@ -23,28 +25,27 @@
      * [PagesOfMachete#Persons Persons]
      * [PagesOfMachete#Workers Workers]
      * [PagesOfMachete#Worker_Sign-in Worker Sign-in]
-   * [PagesOfMachete#User_Accounts User Accounts]
-   * [PagesOfMachete#Bilingual_Support Bilingual Support]
-   * [PagesOfMachete#Work_Flow Work Flow]
+     * [PagesOfMachete#User_Accounts User Accounts]
 
-Home
-Machete News
-Issue Tracker
-Documentation
-Reports
-About
 
-Employers
-Searching for an Employer
-Editing an existing Employer
-Creating a new Employer
-Deleting an Employer
-Creating a new Work Order
-Work Order buttons
-Work Order fields
-Searching for and editing an existing Work Order
-Deleting Work Orders
-Creating a new Work Assignment
-Work Assignment Buttons
-Assigninga Worker directly to an Work Assignment (Orphaned Assignment)
-''       * [Introduction#]
+ * [Home Home Page]
+   * [Home#Machete_News Machete News]
+   * [Home#Issue_Tracker Issue Tracker]
+   * [Home#Documentation Documentation
+   * [Home#Reports Reports]
+   * [Home#About About]
+
+ * [Employers Employers Page]
+   * [Employers#Searching_for_an_Employer Searching for an Employer]
+   * [Employers#Editing_an_existing_Employer
+   * [Employers#Creating_a_new_Employer Creating a new Employer]
+   * [Employers#Deleting_an_Employer Deleting an Employer]
+   * [Employers#Creating_a_new_Work_Order Creating a new Work Order]
+     * [Employers#Work_Order_buttons Work Order buttons]
+     * [Employers#Work_Order_fields Work Order fields]
+   * [Employers#Finding_an_existing_Work_Order Finding an existing Work Order]
+   * [Employers#Deleting_Work_Orders Deleting Work Orders]
+   * [Employers#Creating_a_new_Work_Assignment Creating a new Work Assignment]
+   * [Employers#Work_Assignment_Buttons Work Assignment Buttons]
+   * [Employers#Assigning_directory_(Orphaned_Assignment) Assigning directly (Orphaned Assignment)]
+
