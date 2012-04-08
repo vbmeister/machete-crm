@@ -1,5 +1,5 @@
 =The Machete Interface=
-==Navigation==
+
 The diagram below identifies common components of the machete interface.
 [http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-1.png]
 
