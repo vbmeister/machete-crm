@@ -35,8 +35,23 @@ To create a new employer record, use the Create New Employer tab on the employer
 Once you save the employer record, a record tab for the new record will open, showing the information you just entered. The record tab will also give access to the work order information for the employer.
 
 ==Deleting an Employer==
+To delete an employer record, open the Record tab for the employer you want to delete. On the right hand side, if you have permission to delete records, a button to delete the record will be visible. 
+ * Note: Deleting an employer record will also delete all work orders and all assignments for that employer. Any survey information associate with those work orders will also be deleted. Deleting employers is only necessary if you’re removing a duplicate employer and have moved existing work orders to a different employer.
+Click the delete button to delete the employer record. A dialog box will appear asking to confirm the delete. If you confirm, the employer record and all its work orders and work assignments will be deleted. Use carefully!
+
 ==Creating a new Work Order===
+To create a new work order, you must first search for and open a record tab for an existing employer record, or create a new employer record. Creating a new employer will open the record tab when you save the new employer record. At the bottom of the employer record tab, there will be tabs for the work order records.
+[http://machete-crm.googlecode.com/svn/wiki/images/PageEmployer-WO-Creating-1.png]
+
+By default, the employer record tab opens the list tab for work orders belong to the employer. This list tab works the same way as the other list tabs: double-click on a work order record to open it. Use the create new work order tab to create a new work order for the employer.
+[http://machete-crm.googlecode.com/svn/wiki/images/PageEmployer-WO-Creating-2.png]
+
+Fill in the fields and click the ‘save’button to save the new work order. The work order is not saved until you use the save button. When you save an order, the Work Assignment tabs will appear. 
+ * Note: At least one work assignment must be created. Once an assignment is created, the ‘activate work order’ button will be visible at the bottom of the screen. Users must activate orders for them to be visible on the dispatch page.
+
+
 ==Work Order buttons==
+
 ==Work Order fields==
 ==Searching for and editing an existing Work Order==
 ==Deleting Work Orders==
