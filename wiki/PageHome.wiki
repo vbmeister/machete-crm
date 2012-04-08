@@ -1,6 +1,17 @@
 =Home=
+The home page offers a landing page of Machete news when a user logs in to their account. The home page contains a number of tabs that provides general information on Machete.
+
 ==Machete News==
+The Machete news tab is the default tab and contains information about the latest updates to Machete. This information is static HTML and is updated by editing the /Views/Home/Index.cshtml file in the IIS Machete directory.
+
 ==Issue Tracker==
+The issue tracker tab is a simple tab that contains an external link to an open source issue tracker page. Internet access is required to access this link.
+
 ==Documentation==
+The documentation tab contains this manual and other information regarding machete.
+
 ==Reports==
+The reports tab contains links to an external reporting solution. By default, these links assume a Reporting Services installation at http://machete/reports. Any change will require updating the links on this page.
+
 ==About==
+The about tab contains basic information about Machete; the technology used and the origin of the name. 
