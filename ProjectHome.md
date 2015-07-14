@@ -1,0 +1,1 @@
+Machete is a web application for managing a day laborer referral organization. Created in cooperation with a non-profit organization. Built using .NET4, MVC3 + C# + Razor + jQuery + Datatables (datatables.net).

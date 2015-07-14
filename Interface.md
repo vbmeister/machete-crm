@@ -1,0 +1,43 @@
+# The Machete Interface #
+
+The diagram below identifies common components of the machete interface.
+![http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-1.png](http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-1.png)
+
+## Menu Links ##
+Every Machete page has a row of gray boxes, the Menu Links, that contain HTML links. These links go to different Machete pages, providing access to various areas of the application.
+The links cause the browser to load a new HTML page. The links divide the major areas of Machete functionality. Clicking on the link for the page you are already viewing will cause the page to be re-loaded.
+
+## Tabs ##
+Machete uses tabs to divide different areas of functinality. When records are opened, a new tab is opened to display the information. Moving away from a tab will cause a new tab to be re-loaded. If you return to the previous tab, it will also be re-loaded. The tabs are re-loaded intentionally to make sure information is current.
+
+## List Tab ##
+The List Tab is the default tab for most Machete pages. The list tab shows a list of a given page's records and provides search and sorting features against the records.
+Once a record is found that needs to be edited or printed, double-click on the record row in the list tab. A record tab will open to the right, with identifying information in the tab's text box.
+The lists are implemented with an open source add-on called datatables and can be found at [DataTables.net](http://www.datatables.net/).
+
+## Search Box ##
+The search box automatically searches the list of records for text as it's being entered. There is a 400 ms second delay on searching, to reduce load on the Machete database. Most fields displayed in a list will be searched, with the exception of 'Updated by' fields. These fields are seldom searched and increase search load for all searches, so they are excluded.
+
+## Create Tab ##
+The Create Tab is available for almost all pages. The create tab provides a blank record for entering new information. The save button must be used to save the new record to the database.
+It is important to note that for most Machete operations, there are a series of records that must be created, in succession, in order to complete a task. In such situations, creating a record will open up a new set of tabs. This new set of tabs will have a List tab and a Create Tab that function in the same manner as their parent.
+
+## Record Tab ##
+When a record is created using the Create tab and saved, a new tab will be opened. Record tabs can also be opened by double clicking on a record row in a List tab.
+Record tabs allow a user to edit or delete a record. The delete functionality should be used carefully, because it may also delete related records. There is no undelete functionality; deletions are permanent.
+
+## Table entries per page ##
+This option controls how many rows are displayed in a table at a given time. The default number is set relatively low because it reduces processing load and time on the server.
+
+## Pagination ##
+The pagination arrows move through pages of table data. Each click will make a call to the database to fetch a new set of records to display in the table.
+
+## Language ##
+The language links tell Machete which language to display for the pages. Currently Spanish and English are the languages available for Machete.
+
+## Required fields ##
+Some fields are required in order to save a record. If a user attempts to save the record without filling out a required field, the field is highlighted in red and an error message is displayed.
+![http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-2.png](http://machete-crm.googlecode.com/svn/wiki/images/Introduction_Navigation-2.png)
+
+Required fields exist to ensure that all necessary information for processing an order or managing a worker is collected.
+
